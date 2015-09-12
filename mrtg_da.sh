@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SV="http://www.gots3.com/mrtg";
+SV="https://raw.githubusercontent.com/janovas/mrtg-auto-install/master/";
 echo "Install snmpd and mrtg"
 yum -y install net-snmp net-snmp-utils mrtg
 
